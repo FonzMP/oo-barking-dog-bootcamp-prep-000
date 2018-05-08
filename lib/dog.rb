@@ -11,4 +11,8 @@ class Dog
   def bark
     @bark = "woof!"
   end
+
+  def bark
+    @bark
+  end
 end
