@@ -2,7 +2,7 @@
 class Dog
   def name=(name, bark="woof!")
     @name = name
-    @bark = "woof!"
+    @bark = bark
   end
 
   def name
